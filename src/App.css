@@ -1,0 +1,25 @@
+[type="text"]:focus,
+[type="email"]:focus,
+[type="url"]:focus,
+[type="password"]:focus,
+[type="number"]:focus,
+[type="date"]:focus,
+[type="datetime-local"]:focus,
+[type="month"]:focus,
+[type="search"]:focus,
+[type="tel"]:focus,
+[type="time"]:focus,
+[type="week"]:focus,
+[multiple]:focus,
+textarea:focus,
+select:focus {
+  outline: 0 !important;
+  outline-offset: 0 !important;
+  --tw-ring-inset: 0 !important;
+  --tw-ring-offset-width: 0px !important;
+  --tw-ring-offset-color: 0 !important;
+  --tw-ring-color: 0 !important;
+  --tw-ring-offset-shadow: 0 !important;
+  box-shadow: 0 !important;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity)) !important;
+}
